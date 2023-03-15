@@ -1,11 +1,13 @@
+#!/usr/bin/perl
+
 print "Hello World\n";
-print "Arithmetic Operators : User-Input";
-print "\nEnter a: ";
+print "Arithmetic Operators : User-Input\n";
+print "Enter a: ";
 #value of a
-$a = <STDIN>;
+$a = <>;
 #value of b
 print "Enter b: ";
-$b = <STDIN>;
+$b = <>;
 #addition
 $c = $a + $b;
 print "Addition of a & b: $c\n";
