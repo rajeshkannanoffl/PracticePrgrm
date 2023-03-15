@@ -1,14 +1,20 @@
 print "Hello World\n";
 print "Arithmetic Operators : User-Input";
 print "\nEnter a: ";
-$a = <STDIN>;		#value of a
+#value of a
+$a = <STDIN>;
+#value of b
 print "Enter b: ";
-$b = <STDIN>;		#value of b
-$c = $a + $b;		#addition
+$b = <STDIN>;
+#addition
+$c = $a + $b;
 print "Addition of a & b: $c\n";
-$d = $a - $b;		#subtraction
+#subtraction
+$d = $a - $b;
 print "Subtraction of a & b: $d\n";
-$e = $a / $b;		#division
+#division
+$e = $a / $b;
 print "Division of a & b: $e\n";
-$f = $a % $b;		#modulo
+#modulo
+$f = $a % $b;
 print "Modulo of a & b: $f\n";
