@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 print "Hello World\n";
-print "Arithmetic Operators : User-Input\n";
+print "\UArithmetic Operators : User-Input\E\n";
 print "Enter a: ";
 #value of a
 $a = <>;
