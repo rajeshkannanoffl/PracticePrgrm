@@ -11,3 +11,6 @@ print "Index Element: $name[0] - $num[0]\n";
 print "First Element: $name[1] - $num[1]\n";
 print "Second Element: $name[2] - $num[2]\n";
 print "Third Element: $name[3] - $num[3]\n";
+
+@num = qw/ 1 2 3 4/;
+print "Array: @num\n";

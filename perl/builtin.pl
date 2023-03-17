@@ -20,5 +20,6 @@ print "$d\n";
 print "\UChop()\E\n";
 print "Enter a string: ";
 $x = <>;
-$y = chop $x;
-print "Your string is: $y";
+chomp $x;
+chop $x;
+print "Your string is: $x\n";
