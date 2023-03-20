@@ -13,4 +13,6 @@ print "Second Element: $name[2] - $num[2]\n";
 print "Third Element: $name[3] - $num[3]\n";
 
 @num = qw/ 1 2 3 4/;
-print "Array: @num\n";
+print "Number Array: @num\n";
+@str = qw/ raj esh kan nan/;
+print "String Array: @str\n";

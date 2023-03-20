@@ -41,4 +41,10 @@ print "Even Array: @even\n";
 @number = (@odd,@even);
 print "Merged Array: @number\n";
 @sortnumb = sort(@number);
-print "Merged Sorted Array: @sortnumb\n";
+print "Merged Sorted Array: @sortnumb\n\n";
+
+print "\UElement Selection\E\n";
+@ele = (1,2,3,4,5)[4];
+@ele1 = (1,2,3,4,5,6)[2..4];
+print "Single Element Selection: @ele\n";
+print "Multi Element Selection: @ele1\n";
