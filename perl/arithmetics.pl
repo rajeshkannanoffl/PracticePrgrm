@@ -1,22 +1,18 @@
-#!/usr/bin/perl
+#! /usr/bin/perl
 
-print "Hello World\n";
-print "\UArithmetic Operators : User-Input\E\n";
 print "Enter a: ";
-#value of a
 $a = <>;
-#value of b
 print "Enter b: ";
 $b = <>;
-#addition
+
+print "\n\UArithmetic Operators\E\n";
 $c = $a + $b;
-print "Addition of a & b: $c\n";
-#subtraction
+print "Addition: $c\n";
 $d = $a - $b;
-print "Subtraction of a & b: $d\n";
-#division
+print "Subtraction: $d\n";
 $e = $a / $b;
-print "Division of a & b: $e\n";
-#modulo
+print "Division: $e\n";
 $f = $a % $b;
-print "Modulo of a & b: $f\n";
+print "Modulus: $f\n";
+$g = $a ** $b;
+print "Exponent: $g\n";
