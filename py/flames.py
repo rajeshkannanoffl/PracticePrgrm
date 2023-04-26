@@ -15,7 +15,7 @@ print(flames(str1.lower(), str2.lower()))
 relation = ""
 if number == 1:
     relation = "Friend"
-elif number == 2 or number ==0:
+elif number == 2 or number == 0:
     relation = "Love"
 elif number == 3:
     relation = "Affection"
