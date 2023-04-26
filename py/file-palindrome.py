@@ -16,5 +16,5 @@ split_string = get_string.split(" ")
 final_string = ""
 for i in range(0, len(split_string)):
     if check_palindrome(str(split_string[i])):
-        final_string = final_string + split_string[i] + "\n"
+        final_string = final_string + split_string[i] + " "
 print (final_string)
