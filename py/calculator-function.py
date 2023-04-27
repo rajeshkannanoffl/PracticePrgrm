@@ -1,6 +1,5 @@
 import os
 os.system("clear")
-
 def calculate(a,b,opt):
     if opt==1:
         print("Addition of two nos:", end=" ")
